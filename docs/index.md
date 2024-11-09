@@ -3,7 +3,7 @@ title: 3MS Home
 icon: material/home
 ---
 
-# Welcome to the 3MS Documentation
+# Welcome to the 3MS BETA Documentation
 
 The 3MS is short for MMMS, which stands for **M**odular **M**ulti **M**aterial **S**ystem
 
