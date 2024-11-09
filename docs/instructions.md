@@ -56,5 +56,5 @@ Follow [Assembly](assembly.md) to assemble your 3MS.
 
 ## 3. Configuring your 3MS
 
-Set up Happy Hare firmware following [this guide](happy-hare.md).
+Set up Happy Hare firmware following [this guide](https://github.com/3DCoded/3MS-docs/wiki/3MS-Quickstart).
 
