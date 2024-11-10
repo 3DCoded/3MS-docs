@@ -9,6 +9,9 @@ The 3MS is short for MMMS, which stands for **M**odular **M**ulti **M**aterial *
 
 <img src="./assets/logo.png" alt="drawing" width="200"/>
 
+!!! info "Discord"
+    Join the 3MS channel at the Happy Hare Discord server [here](https://discord.gg/8nTTEZeuvb).
+
 ## Inspiration
 
 - Prusa MMU1
