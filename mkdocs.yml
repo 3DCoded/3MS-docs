@@ -61,7 +61,7 @@ markdown_extensions:
 extra:
   analytics:
     provider: google
-    property: G-ERRF9DWVTD
+    property: G-N8P735SRYZ
   status:
     new: Recently added
     updated: Recently updated
