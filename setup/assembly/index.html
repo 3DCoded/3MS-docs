@@ -463,6 +463,8 @@
       
         
       
+        
+      
     
     
     
@@ -659,6 +661,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../controllers/mellowflyd7/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mellow Fly D7
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../controllers/geetech-a30t/" class="md-nav__link">
         
   
@@ -744,12 +767,36 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Printed Parts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mounting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mounting
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#other" class="md-nav__link">
+    <span class="md-ellipsis">
+      Other
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
-  <a href="#mk8-assembly" class="md-nav__link">
+  <a href="#filament-units-assembly" class="md-nav__link">
     <span class="md-ellipsis">
-      MK8 Assembly
+      Filament Units Assembly
     </span>
   </a>
   
@@ -921,12 +968,36 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Printed Parts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mounting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mounting
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#other" class="md-nav__link">
+    <span class="md-ellipsis">
+      Other
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
-  <a href="#mk8-assembly" class="md-nav__link">
+  <a href="#filament-units-assembly" class="md-nav__link">
     <span class="md-ellipsis">
-      MK8 Assembly
+      Filament Units Assembly
     </span>
   </a>
   
@@ -976,22 +1047,37 @@
 <h1 id="assembly">Assembly</h1>
 <p>Follow this guide to assemble your 3MS.</p>
 <h2 id="printed-parts">Printed Parts</h2>
-<p>An optional board enclosure for the SKR Mini E3 is available <a href="https://www.printables.com/model/459809-bigtreetech-skr-mini-e3-v3-enclosure">here</a>.</p>
-<p>Additionally, an optional universal mount for the MK8 extruder using M3 bolts is available <a href="../../assets/stls/mk8m3.stl">here</a>. Note that this requires 2-4 M3 bolts and a place to screw the bolts into.</p>
-<p>A printable Y-splitter designed by <strong>ImChrono</strong> is available <a href="https://www.printables.com/model/1042279-no-catch-4-way-y-splitter-pc4-m10">here</a>.</p>
-<h2 id="mk8-assembly">MK8 Assembly</h2>
-<p>Next, assemble the MK8 extruders onto the NEMA17 motors using the provided instructions that came with them. If you use the mount provided above, make sure it is in between the MK8 and NEMA17. </p>
+<h3 id="mounting">Mounting</h3>
+<ul>
+<li><strong><a href="../../assets/stls/mk8m3.stl">Univeral M3 Mount for Extruder</a></strong> Note that this requires 2-4 M3 bolts and a place to screw the bolts into (like an aluminum extrusion with T-nuts).</li>
+<li><strong><a href="https://www.printables.com/model/1067703-wip-3ms-mmu-using-btt-mmb">3MS Box</a></strong> This is designed for four filament units and a BTT MMB. Designed by <strong>chadakken</strong>.</li>
+</ul>
+<h3 id="other">Other</h3>
+<ul>
+<li><strong><a href="https://www.printables.com/model/1042279-no-catch-4-way-y-splitter-pc4-m10">4-way Y-splitter</a></strong> designed by <strong>ImChrono</strong>.</li>
+</ul>
+<h2 id="filament-units-assembly">Filament Units Assembly</h2>
+<ol>
+<li>If using any mounting parts, place it on the face of your NEMA17 motor.</li>
+<li>
+<p>Assemble the MK8 extruders using the instructions that came with them.</p>
+<p><strong>Animation:</strong></p>
+<p><a class="glightbox" href="mk8animation.mp4" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="" src="mk8animation.mp4" /></a></p>
+</li>
+</ol>
 <h2 id="wiring">Wiring</h2>
 <div class="admonition note">
 <p class="admonition-title">Note for Certain Printers</p>
 <p>If your printer has Klipper running internally (not on an external computer), the controller (if not a main MCU config) is plugged into a USB port on the printer itself.</p>
 </div>
 <p>Follow one of the following guides based on your controller:</p>
+<p><strong>Recommended: <a href="../controllers/bttmmb/#wiring">BTT MMB</a></strong></p>
+<hr />
+<p><strong>Other Controllers:</strong></p>
 <ul>
 <li><a href="../controllers/skrminie3v2/#wiring">SKR Mini E3 V2</a></li>
 <li><a href="../controllers/skrpico/#wiring">SKR Pico</a></li>
 <li><a href="../controllers/mellowflyd7/#wiring">Mellow Fly D7</a></li>
-<li><a href="../controllers/bttmmb/#wiring">BTT MMB</a></li>
 <li><a href="../controllers/bttoctopusmain/#wiring">BTT Octopus (main MCU)</a></li>
 <li><a href="../controllers/einsyrambo-skrminie3v2/">Einsy RAMBo (main MCU) with SKR Mini E3 V2</a></li>
 <li><a href="../controllers/zm384main/">Zonestar ZM384 (main MCU)</a></li>
