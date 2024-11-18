@@ -1207,6 +1207,7 @@
 <li><a href="#instructions-1-getting-a-bom">Getting a BOM</a></li>
 <li><a href="#instructions-2-assembling-your-3ms">Assembling your 3MS</a></li>
 <li><a href="#instructions-3-configuring-your-3ms">Configuring your 3MS</a></li>
+<li><a href="#instructions-4-calibrating-your-3ms">Calibrating your 3MS</a></li>
 </ol>
 <h2 id="instructions-0-explanations">0. Explanations</h2>
 <p>Before starting the instructions, a basic understanding of how the 3MS works is recommended. There are two types of components in the 3MS:</p>
@@ -1284,7 +1285,23 @@
 <h2 id="instructions-2-assembling-your-3ms">2. Assembling your 3MS</h2>
 <p>Follow <a href="#setup-assembly">Assembly</a> to assemble your 3MS.</p>
 <h2 id="instructions-3-configuring-your-3ms">3. Configuring your 3MS</h2>
-<p>Set up Happy Hare firmware following <a href="https://github.com/moggieuk/Happy-Hare/wiki/Quick-Start-3MS">this guide</a>.</p></section>
+<p>Set up Happy Hare firmware following <a href="https://github.com/moggieuk/Happy-Hare/wiki/Quick-Start-3MS">this guide</a>.</p>
+<h2 id="instructions-4-calibrating-your-3ms">4. Calibrating your 3MS</h2>
+<p>After installing and configuring Happy Hare, the 3MS requires some calibrations. </p>
+<ol>
+<li>
+<p><strong>Filament Sensors</strong></p>
+<p>Run the <code>QUERY_ENDSTOPS</code> command and ensure all configured filament sensors report their expected values (<code>open</code> means no filament detected, and <code>TRIGGERED</code> means filament detected). Repeat this command several times, inserting/removing filament in each of your sensors to ensure each work properly.</p>
+</li>
+<li>
+<p><strong>Gear Motors</strong></p>
+<p>Follow <a href="https://github.com/moggieuk/Happy-Hare/wiki/Hardware-Configuration#step-3-check-motor-movement-and-direction">this guide</a>, ignoring the selector section.</p>
+</li>
+<li>
+<p><strong>Gear Distance</strong></p>
+<p>Follow <a href="https://github.com/moggieuk/Happy-Hare/wiki/MMU-Calibration#---step-3-calibrate-your-gear-stepper">this guide</a>, ignoring the servo.</p>
+</li>
+</ol></section>
                         <h1 class='nav-section-title' id='section-setup'>
                             Setup <a class='headerlink' href='#section-setup' title='Permanent link'>↵</a>
                         </h1>
