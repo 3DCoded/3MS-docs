@@ -80,6 +80,7 @@ theme:
       - search.highlight
       - search.share
       - content.code.copy
+      - content.tabs.link
   name: material
   palette: 
     # Palette toggle for light mode
@@ -102,16 +103,18 @@ nav:
   - Setup:
     - BOM: setup/bom.md
     - Controllers:
+      - setup/controllers/bttmmb.md
       - setup/controllers/index.md
       - setup/controllers/skrminie3v2.md
       - setup/controllers/skrpico.md
-      - setup/controllers/bttmmb.md
       - setup/controllers/bttoctopusmain.md
       - setup/controllers/einsyrambo-skrminie3v2.md
       - setup/controllers/zm384main.md
       - setup/controllers/minirambo.md
+      - setup/controllers/mellowflyd7.md
       - setup/controllers/geetech-a30t.md
     - setup/assembly.md
+    - setup/calibration.md
     - guides/3dchameleon.md
   - Contributing:
     - contributing/index.md
@@ -119,3 +122,7 @@ nav:
 
 extra_css:
   - stylesheets/extra.css
+  - assets/css/calibration.css
+
+extra_javascript:
+  - assets/javascript/calibration.js

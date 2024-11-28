@@ -7,7 +7,7 @@ comments: true
 
 ## Controller Choice
 
-First, choose the control board you want to use in your 3MS. Choose a controller from the available ones [here](setup/controllers/index.md).
+First, choose the control board you want to use in your 3MS. Choose a controller from the available ones [here](controllers/index.md).
 
 ## Number of filament units
 
@@ -17,9 +17,15 @@ First, choose the number of filament units you want. Each filament unit lets you
 
 Choose the BOM for your chosen controller from the list below:
 
+**Recommended: [BTT MMB](bttmmb.md#bom)** 
+
+---
+
+**Other Controllers:**
+
 - [BTT SKR Mini E3 V2](skrminie3v2.md#bom)
 - [BTT SKR Pico](skrpico.md#bom)
-- [BTT MMB](bttmmb.md#bom)
+- [Mellow Fly D7](mellowflyd7.md#bom)
 - [BTT Octopus (main MCU)](bttoctopusmain.md#bom)
 - [Zonestar ZM384 (main MCU)](zm384main.md)
 - [Mini RAMBo](minirambo.md)

@@ -16,6 +16,7 @@ The basic steps this guide will follow are:
 1. [Getting a BOM](#1-getting-a-bom)
 2. [Assembling your 3MS](#2-assembling-your-3ms)
 3. [Configuring your 3MS](#3-configuring-your-3ms)
+4. [Calibrating your 3MS](#4-calibrating-your-3ms)
 
 ## 0. Explanations
 
@@ -58,3 +59,6 @@ Follow [Assembly](assembly.md) to assemble your 3MS.
 
 Set up Happy Hare firmware following [this guide](https://github.com/moggieuk/Happy-Hare/wiki/Quick-Start-3MS).
 
+## 4. Calibrating your 3MS
+
+After installing and configuring Happy Hare, the 3MS requires some calibrations. Follow [Calibration](calibration.md) to calibrate your 3MS.
